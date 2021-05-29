@@ -1,0 +1,25 @@
+.stations{
+    /* flex: 0.5; */
+    border-bottom: 1px solid lightgrey;
+    width: 400px;
+    min-width: 200px;
+    
+}
+.station__image__btn{
+    width: 45px;
+    cursor: pointer;
+}
+.station__image__dp{
+    width: 170px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+.station__image{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px
+}
+.station__details{
+    cursor: pointer;
+}
