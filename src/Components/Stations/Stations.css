@@ -23,3 +23,50 @@
 .station__details{
     cursor: pointer;
 }
+
+
+
+
+
+/* import React from 'react';
+import './Stations.css'
+import minus from '../../images/minus.png'
+import plus from '../../images/plus.png'
+
+const Stations = ({ item, key }) => {
+    console.log(item)
+    const { name, bandwidth, id, image } = item;
+
+    return (
+        <div className="stations">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span className = "text-align-left">
+                            <h3>{name}</h3>
+                            </span>
+                            <span className = "text-align-right">
+                            <h3>{bandwidth}</h3>
+                            </span>
+                           
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <span className="station__image">
+                                
+                                    <img className="station__image__btn" src={minus} alt="" />
+                                    <img className="station__image__dp" src={image} alt="" />
+                                    <img className="station__image__btn" src={plus} alt="" />
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Stations; */
